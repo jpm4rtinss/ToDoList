@@ -1,11 +1,7 @@
 var listElement = document.querySelector('#app ul')
 var inputElement = document.querySelector('#app input')
 var buttonElement = document.querySelector('#app button')
-var toDos = [
-    'Estudar Angular Js',
-    'Estudar prototipação Adobe XD',
-    'Estudar React'
-]
+var toDos = JSON.parse(localStorage.getItem('list_todos')) || [];
 
 function renderToDos(){
     listElement.innerHTML = ''
@@ -48,6 +44,7 @@ function addToDo (){
     //reset input
     inputElement.value = ''
     renderToDos()
+    saveToStorage()
 }
 
 buttonElement.onclick = addToDo
@@ -55,5 +52,10 @@ buttonElement.onclick = addToDo
 function deleteToDo(position){
     toDos.splice(position, 1)
     renderToDos()
+    saveToStorage()
+}
 
+//save the toDo data in the local storage
+function saveToStorage() {
+    localStorage.setItem('list_todos', JSON.stringify(toDos));
 }
