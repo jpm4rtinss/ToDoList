@@ -10,8 +10,5 @@ To Do List</h1>
 -  **HTML**
 - Bootstrap 4 (soon)
 
-## Texts language
-
-- **Portuguese - BR**
 
 
