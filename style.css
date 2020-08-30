@@ -2,13 +2,39 @@
     margin: 0;
     padding: 0;
 }
-#app {
+
+
+#app{
     width: 70%;
-    background: #EEE;
-    border-radius: 7px;
-    margin: 40px auto;
-    padding: 10px;
     max-width: 800px;
+    margin: 40px auto;
+
+}
+#app-header{
+background-color: #5bc0de;
+height: 80px;
+border-radius:  7px 7px 0 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#app-header h1{
+    color: white;
+}
+#app-header span{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    background: url(https://image.flaticon.com/icons/svg/753/753318.svg);
+
+}
+
+#app2  {
+    
+    background: #EEE;
+    border-radius: 0 0 7px 7px;
+    padding: 15px;
 
 }
 ul {
@@ -20,7 +46,7 @@ li{
     display: flex;
     justify-content: space-between;
 }
-#div{
+#inputbutton{
     display: flex;
     justify-content: center;
 }
@@ -31,6 +57,7 @@ button{
     margin-top: 10px;
     background: #22bb33;
     width: 34%;
+    color: white;
 
 }
 input{
@@ -44,6 +71,5 @@ input{
 }
 a{
    text-decoration: none;
-   
-   
+   color: #d9534f;
 }
