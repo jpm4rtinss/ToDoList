@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Poppins;
 }
 
 
@@ -17,6 +18,7 @@ border-radius:  7px 7px 0 0;
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
 #app-header h1{
@@ -58,6 +60,7 @@ button{
     background: #22bb33;
     width: 34%;
     color: white;
+    font-size: 15px;
 
 }
 input{
