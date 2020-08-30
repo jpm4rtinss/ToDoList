@@ -7,7 +7,7 @@ To Do List</h1>
 ## Tech Stack
 
 - **JS**  
-- **CSS
+- **CSS**
 - **HTML**
 
 
