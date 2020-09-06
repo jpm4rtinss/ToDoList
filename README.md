@@ -8,7 +8,7 @@ To Do List</h1>
  <img src="https://github.com/jpm4rtinss/ToDoList/blob/master/gif-readme.gif" align="center">
 </div>
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - **JS**  
 - **CSS**
